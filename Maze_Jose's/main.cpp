@@ -672,7 +672,7 @@ void Specialkeys(int key, int x, int y)
      // cout<<"Player Location  :  "<<P->getPlayerLoc().x<< "    "<<P->getPlayerLoc().y<<endl;
     switch(key)
     {
-        /*
+        
     case GLUT_KEY_UP:
         P->action =1;
          break;
@@ -688,7 +688,7 @@ void Specialkeys(int key, int x, int y)
     case GLUT_KEY_RIGHT:
         P->action =4;
          break;
-         */
+         
    }
 
    // comment this after you debug
