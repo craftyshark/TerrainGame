@@ -703,8 +703,11 @@ void Specialkeys(int key, int x, int y)
 
 int main(int argc, char *argv[])
 {
+    //time to comment, literally disgustingly. Here basic time counter. glutInit seems to start 
+    //a glut sesh with argc and argv as start? 
     srand(time(NULL));
    glutInit(&argc, argv);
+
 
    glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH);
    glutInitWindowSize (800, 800);                //window screen
